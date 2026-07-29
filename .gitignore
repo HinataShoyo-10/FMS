@@ -1,0 +1,36 @@
+# --- Secrets & credentials (NEVER commit) ---
+.env
+*.env
+data/access_token.txt
+
+# --- Runtime data & logs (gitignored per README project structure) ---
+# The dirs are tracked (via .gitkeep) but their generated contents are not:
+#   data/  -> access_token.txt, paper_trades.csv, nse_fo_master.csv cache
+#   logs/  -> Fyers SDK logs
+data/*
+!data/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Tooling / IDE / OS ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,5 @@
+# Keeps the (gitignored) data/ directory present in the repo.
+# Runtime contents live here and are excluded by .gitignore:
+#   access_token.txt   - cached daily Fyers access token (auth.py)
+#   paper_trades.csv   - paper-trading trade log (paper_trading.py)
+#   nse_fo_master.csv  - cached Fyers NSE F&O symbol master (symbol_lookup.py)

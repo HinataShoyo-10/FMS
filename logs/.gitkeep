@@ -1,0 +1,3 @@
+# Keeps the (gitignored) logs/ directory present in the repo.
+# Fyers SDK writes its logs here (config.LOG_PATH); contents are excluded
+# by .gitignore.
